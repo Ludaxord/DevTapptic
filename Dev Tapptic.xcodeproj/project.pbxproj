@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		656719ED0C049125BFDC20B3 /* Pods_Dev_Tapptic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDC5F4091E9E38B5AAD4F6A2 /* Pods_Dev_Tapptic.framework */; };
+		77BAC24222806D450010485D /* JSONModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BAC24122806D450010485D /* JSONModel.swift */; };
+		77E6C5F62280620F004BE5CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6C5F52280620F004BE5CB /* AppDelegate.swift */; };
+		77E6C5FD22806210004BE5CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77E6C5FC22806210004BE5CB /* Assets.xcassets */; };
+		77E6C62D22806384004BE5CB /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6C60822806384004BE5CB /* Article.swift */; };
+		77E6C62E22806384004BE5CB /* ApiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6C60A22806384004BE5CB /* ApiProtocol.swift */; };
+		77E6C62F22806384004BE5CB /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6C60D22806384004BE5CB /* API.swift */; };
+		77E6C63022806384004BE5CB /* DevTapptic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6C60F22806384004BE5CB /* DevTapptic.swift */; };
+		77E6C63222806384004BE5CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6C61422806384004BE5CB /* ViewController.swift */; };
+		77E6C63322806384004BE5CB /* ArticleDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6C61622806384004BE5CB /* ArticleDetailsController.swift */; };
+		77E6C63422806384004BE5CB /* ArticlesListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6C61722806384004BE5CB /* ArticlesListController.swift */; };
+		77E6C63722806384004BE5CB /* Statics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6C61C22806384004BE5CB /* Statics.swift */; };
+		77E6C63822806384004BE5CB /* UIPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6C61D22806384004BE5CB /* UIPreferences.swift */; };
+		77E6C63922806384004BE5CB /* UIBarButtonItemExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6C61F22806384004BE5CB /* UIBarButtonItemExtension.swift */; };
+		77E6C63A22806384004BE5CB /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6C62222806384004BE5CB /* ArticleCell.swift */; };
+		77E6C63B22806384004BE5CB /* OmniNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6C62422806384004BE5CB /* OmniNavBar.swift */; };
+		77E6C63C22806384004BE5CB /* OmniNavButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6C62522806384004BE5CB /* OmniNavButton.swift */; };
+		77E6C63D22806384004BE5CB /* OmniSearchAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6C62622806384004BE5CB /* OmniSearchAlert.swift */; };
+		77E6C63E22806384004BE5CB /* OmniTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6C62722806384004BE5CB /* OmniTableView.swift */; };
+		77E6C63F22806384004BE5CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77E6C62922806384004BE5CB /* LaunchScreen.storyboard */; };
+		77E6C64022806384004BE5CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77E6C62B22806384004BE5CB /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29950C8F19DA268660B53461 /* Pods-Dev Tapptic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dev Tapptic.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dev Tapptic/Pods-Dev Tapptic.release.xcconfig"; sourceTree = "<group>"; };
+		77BAC24122806D450010485D /* JSONModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONModel.swift; sourceTree = "<group>"; };
+		77E6C5F22280620F004BE5CB /* Dev Tapptic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dev Tapptic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77E6C5F52280620F004BE5CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		77E6C5FC22806210004BE5CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77E6C60122806210004BE5CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77E6C60822806384004BE5CB /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		77E6C60A22806384004BE5CB /* ApiProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiProtocol.swift; sourceTree = "<group>"; };
+		77E6C60D22806384004BE5CB /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		77E6C60F22806384004BE5CB /* DevTapptic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevTapptic.swift; sourceTree = "<group>"; };
+		77E6C61422806384004BE5CB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		77E6C61622806384004BE5CB /* ArticleDetailsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleDetailsController.swift; sourceTree = "<group>"; };
+		77E6C61722806384004BE5CB /* ArticlesListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesListController.swift; sourceTree = "<group>"; };
+		77E6C61C22806384004BE5CB /* Statics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Statics.swift; sourceTree = "<group>"; };
+		77E6C61D22806384004BE5CB /* UIPreferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPreferences.swift; sourceTree = "<group>"; };
+		77E6C61F22806384004BE5CB /* UIBarButtonItemExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBarButtonItemExtension.swift; sourceTree = "<group>"; };
+		77E6C62222806384004BE5CB /* ArticleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
+		77E6C62422806384004BE5CB /* OmniNavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OmniNavBar.swift; sourceTree = "<group>"; };
+		77E6C62522806384004BE5CB /* OmniNavButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OmniNavButton.swift; sourceTree = "<group>"; };
+		77E6C62622806384004BE5CB /* OmniSearchAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OmniSearchAlert.swift; sourceTree = "<group>"; };
+		77E6C62722806384004BE5CB /* OmniTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OmniTableView.swift; sourceTree = "<group>"; };
+		77E6C62A22806384004BE5CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77E6C62C22806384004BE5CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6134BDF59885E1ABB4A5CE1 /* Pods-Dev Tapptic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dev Tapptic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dev Tapptic/Pods-Dev Tapptic.debug.xcconfig"; sourceTree = "<group>"; };
+		FDC5F4091E9E38B5AAD4F6A2 /* Pods_Dev_Tapptic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dev_Tapptic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77E6C5EF2280620F004BE5CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656719ED0C049125BFDC20B3 /* Pods_Dev_Tapptic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C837AD0E3E421EBC8B784C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDC5F4091E9E38B5AAD4F6A2 /* Pods_Dev_Tapptic.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77E6C5E92280620F004BE5CB = {
+			isa = PBXGroup;
+			children = (
+				77E6C5F42280620F004BE5CB /* Dev Tapptic */,
+				77E6C5F32280620F004BE5CB /* Products */,
+				79F63C55F10B822949EDA21B /* Pods */,
+				3C837AD0E3E421EBC8B784C5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		77E6C5F32280620F004BE5CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77E6C5F22280620F004BE5CB /* Dev Tapptic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77E6C5F42280620F004BE5CB /* Dev Tapptic */ = {
+			isa = PBXGroup;
+			children = (
+				77E6C61822806384004BE5CB /* AddOns */,
+				77E6C61222806384004BE5CB /* Controllers */,
+				77E6C61022806384004BE5CB /* Delegates */,
+				77E6C61E22806384004BE5CB /* Extensions */,
+				77E6C60B22806384004BE5CB /* Http */,
+				77E6C60722806384004BE5CB /* Models */,
+				77E6C60922806384004BE5CB /* Protocols */,
+				77E6C62822806384004BE5CB /* Storyboards */,
+				77E6C62022806384004BE5CB /* Views */,
+				77E6C5FC22806210004BE5CB /* Assets.xcassets */,
+				77E6C60122806210004BE5CB /* Info.plist */,
+			);
+			path = "Dev Tapptic";
+			sourceTree = "<group>";
+		};
+		77E6C60722806384004BE5CB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				77E6C60822806384004BE5CB /* Article.swift */,
+				77BAC24122806D450010485D /* JSONModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		77E6C60922806384004BE5CB /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				77E6C60A22806384004BE5CB /* ApiProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		77E6C60B22806384004BE5CB /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				77E6C60C22806384004BE5CB /* Base */,
+				77E6C60E22806384004BE5CB /* Custom */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		77E6C60C22806384004BE5CB /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				77E6C60D22806384004BE5CB /* API.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		77E6C60E22806384004BE5CB /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				77E6C60F22806384004BE5CB /* DevTapptic.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		77E6C61022806384004BE5CB /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				77E6C5F52280620F004BE5CB /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		77E6C61222806384004BE5CB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				77E6C61322806384004BE5CB /* Base */,
+				77E6C61522806384004BE5CB /* Custom */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		77E6C61322806384004BE5CB /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				77E6C61422806384004BE5CB /* ViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		77E6C61522806384004BE5CB /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				77E6C61622806384004BE5CB /* ArticleDetailsController.swift */,
+				77E6C61722806384004BE5CB /* ArticlesListController.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		77E6C61822806384004BE5CB /* AddOns */ = {
+			isa = PBXGroup;
+			children = (
+				77E6C61C22806384004BE5CB /* Statics.swift */,
+				77E6C61D22806384004BE5CB /* UIPreferences.swift */,
+			);
+			path = AddOns;
+			sourceTree = "<group>";
+		};
+		77E6C61E22806384004BE5CB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				77E6C61F22806384004BE5CB /* UIBarButtonItemExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		77E6C62022806384004BE5CB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				77E6C62122806384004BE5CB /* Cells */,
+				77E6C62322806384004BE5CB /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		77E6C62122806384004BE5CB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				77E6C62222806384004BE5CB /* ArticleCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		77E6C62322806384004BE5CB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				77E6C62422806384004BE5CB /* OmniNavBar.swift */,
+				77E6C62522806384004BE5CB /* OmniNavButton.swift */,
+				77E6C62622806384004BE5CB /* OmniSearchAlert.swift */,
+				77E6C62722806384004BE5CB /* OmniTableView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		77E6C62822806384004BE5CB /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				77E6C62922806384004BE5CB /* LaunchScreen.storyboard */,
+				77E6C62B22806384004BE5CB /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		79F63C55F10B822949EDA21B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6134BDF59885E1ABB4A5CE1 /* Pods-Dev Tapptic.debug.xcconfig */,
+				29950C8F19DA268660B53461 /* Pods-Dev Tapptic.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77E6C5F12280620F004BE5CB /* Dev Tapptic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77E6C60422806211004BE5CB /* Build configuration list for PBXNativeTarget "Dev Tapptic" */;
+			buildPhases = (
+				381E14B82B002619D60B02AA /* [CP] Check Pods Manifest.lock */,
+				77E6C5EE2280620F004BE5CB /* Sources */,
+				77E6C5EF2280620F004BE5CB /* Frameworks */,
+				77E6C5F02280620F004BE5CB /* Resources */,
+				6ECDA73C82B13C60457C2BA0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dev Tapptic";
+			productName = "Dev Tapptic";
+			productReference = 77E6C5F22280620F004BE5CB /* Dev Tapptic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77E6C5EA2280620F004BE5CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				TargetAttributes = {
+					77E6C5F12280620F004BE5CB = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 77E6C5ED2280620F004BE5CB /* Build configuration list for PBXProject "Dev Tapptic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77E6C5E92280620F004BE5CB;
+			productRefGroup = 77E6C5F32280620F004BE5CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77E6C5F12280620F004BE5CB /* Dev Tapptic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77E6C5F02280620F004BE5CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E6C5FD22806210004BE5CB /* Assets.xcassets in Resources */,
+				77E6C64022806384004BE5CB /* Main.storyboard in Resources */,
+				77E6C63F22806384004BE5CB /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		381E14B82B002619D60B02AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dev Tapptic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6ECDA73C82B13C60457C2BA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Dev Tapptic/Pods-Dev Tapptic-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionAnimator/MotionAnimator.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionInterchange/MotionInterchange.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionTransitioning/MotionTransitioning.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionAnimator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionInterchange.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionTransitioning.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dev Tapptic/Pods-Dev Tapptic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77E6C5EE2280620F004BE5CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E6C62E22806384004BE5CB /* ApiProtocol.swift in Sources */,
+				77E6C63022806384004BE5CB /* DevTapptic.swift in Sources */,
+				77E6C5F62280620F004BE5CB /* AppDelegate.swift in Sources */,
+				77E6C63922806384004BE5CB /* UIBarButtonItemExtension.swift in Sources */,
+				77E6C63422806384004BE5CB /* ArticlesListController.swift in Sources */,
+				77E6C62D22806384004BE5CB /* Article.swift in Sources */,
+				77E6C63B22806384004BE5CB /* OmniNavBar.swift in Sources */,
+				77E6C63A22806384004BE5CB /* ArticleCell.swift in Sources */,
+				77E6C63722806384004BE5CB /* Statics.swift in Sources */,
+				77E6C63E22806384004BE5CB /* OmniTableView.swift in Sources */,
+				77E6C63222806384004BE5CB /* ViewController.swift in Sources */,
+				77E6C63C22806384004BE5CB /* OmniNavButton.swift in Sources */,
+				77E6C63322806384004BE5CB /* ArticleDetailsController.swift in Sources */,
+				77E6C63822806384004BE5CB /* UIPreferences.swift in Sources */,
+				77E6C62F22806384004BE5CB /* API.swift in Sources */,
+				77BAC24222806D450010485D /* JSONModel.swift in Sources */,
+				77E6C63D22806384004BE5CB /* OmniSearchAlert.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		77E6C62922806384004BE5CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E6C62A22806384004BE5CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		77E6C62B22806384004BE5CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E6C62C22806384004BE5CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77E6C60222806210004BE5CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77E6C60322806210004BE5CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77E6C60522806211004BE5CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6134BDF59885E1ABB4A5CE1 /* Pods-Dev Tapptic.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S69A97KA6A;
+				INFOPLIST_FILE = "Dev Tapptic/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.ludaxord.Dev-Tapptic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		77E6C60622806211004BE5CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29950C8F19DA268660B53461 /* Pods-Dev Tapptic.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S69A97KA6A;
+				INFOPLIST_FILE = "Dev Tapptic/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.ludaxord.Dev-Tapptic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77E6C5ED2280620F004BE5CB /* Build configuration list for PBXProject "Dev Tapptic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77E6C60222806210004BE5CB /* Debug */,
+				77E6C60322806210004BE5CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77E6C60422806211004BE5CB /* Build configuration list for PBXNativeTarget "Dev Tapptic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77E6C60522806211004BE5CB /* Debug */,
+				77E6C60622806211004BE5CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77E6C5EA2280620F004BE5CB /* Project object */;
+}
